@@ -1,0 +1,93 @@
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
+Register number
+Name
+Department
+Saved.
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
+Register number
+Skill or language
+Saved.
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
+Register number
+Skill or language
+Rejected: UNIQUE constraint failed: student_skill.reg, student_skill.skill
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
+Student register number
+Project title
+Domain
+Description
+Technologies, separated by commas
+Project saved with ID 5
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
+Project ID
+Milestone
+Due date YYYY-MM-DD
+Saved.
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
+Project ID
+Milestone
+Submission date YYYY-MM-DD
+Saved.
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
+Project ID
+Component: Design, Implementation or Presentation
+Mark (0 to 100)
+Rejected: Mark must be 0 to 100.
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
+Project ID
+Component: Design, Implementation or Presentation
+Mark (0 to 100)
+Saved.
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
+Project progress
+id | title | domain | reg | planned | finished | status
+1 | Book Finder | Web | 2 | 2 | 2 | Complete
+2 | Rain Log | Analytics | 32 | 2 | 1 | In progress
+3 | Bus Counts | Analytics | 62 | 1 | 1 | Complete
+4 | Lab Slots | Web | 92 | 0 | 0 | Unplanned
+5 | Campus map | Web | T01 | 1 | 1 | Complete
+Student skills
+reg | name | skill
+2 | Anu | Java
+2 | Anu | SQL
+32 | Bala | Python
+32 | Bala | SQL
+62 | Devi | Python
+92 | Arun | Java
+L2 | Meena | No recorded skill
+T01 | Demo Student | SQL
+Milestone dates
+id | title | name | due | submitted | status
+1 | Book Finder | Design | 2026-10-01 | 2026-10-01 | Complete
+1 | Book Finder | Demo | 2026-11-10 | 2026-11-09 | Complete
+2 | Rain Log | Design | 2026-10-10 | 2026-10-12 | Complete
+2 | Rain Log | Demo | 2026-11-18 | - | Pending
+3 | Bus Counts | Demo | 2026-10-31 | 2026-10-30 | Complete
+5 | Campus map | Demo | 2026-11-18 | 2026-11-17 | Complete
+Component marks
+project_id | component | mark
+1 | Design | 85
+1 | Presentation | 90
+3 | Implementation | 82
+5 | Design | 88
+Technologies
+project_id | technology
+1 | Java
+1 | SQLite
+2 | Python
+2 | SQLite
+3 | Python
+4 | Java
+5 | Java
+5 | SQLite
+1 Save student | 2 Add skill | 3 Register project | 4 Plan milestone | 5 Submit milestone | 6 Save mark | 7 Reports | 0 Exit
+Choice
